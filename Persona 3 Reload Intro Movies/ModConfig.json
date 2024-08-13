@@ -1,0 +1,51 @@
+{
+  "ModId": "Persona_3_Reload_Intro_Movies",
+  "ModName": "Persona 3 Reload Intro Movies",
+  "ModAuthor": "TheBestAstroNOT",
+  "ModVersion": "1.0.0",
+  "ModDescription": "This mod is adds various alternate openings for the game. The Femc Config App is recommended for configuring this mod.",
+  "ModDll": "Persona_3_Reload_Intro_Movies.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/Persona_3_Reload_Intro_Movies.dll",
+  "ModR2RManagedDll64": "x64/Persona_3_Reload_Intro_Movies.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "Music"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "Persona_3_Reload_Intro_Movies.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubRelease": {
+      "UserName": "TheBestAstroNOT",
+      "RepositoryName": "Persona-3-Reload-Intro-Movies",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Ryo.Reloaded"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "p3r.exe"
+  ],
+  "ProjectUrl": ""
+}
