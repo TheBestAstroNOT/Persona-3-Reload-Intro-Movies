@@ -9,17 +9,17 @@ namespace Persona_3_Reload_Intro_Movies.Configuration
         [DisplayName("Original P3P Movie")]
         [Description("View this movie on startup?")]
         [DefaultValue(false)]
-        public bool p3p { get; set; } = true;
+        public bool P3p { get; set; } = true;
 
         [DisplayName("Moonlight Daydream by the P3P Kotone Cutscenes Team")]
         [Description("View this movie on startup?")]
         [DefaultValue(true)]
-        public bool p3pk { get; set; } = true;
+        public bool P3pk { get; set; } = true;
 
         [DisplayName("P3R Movie (Soul Phrase by Mosq)")]
         [Description("View this movie on startup?")]
         [DefaultValue(false)]
-        public bool soulmosq { get; set; } = true;
+        public bool SoulMosq { get; set; } = true;
     }
 
     /// <summary>

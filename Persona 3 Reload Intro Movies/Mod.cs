@@ -67,9 +67,9 @@ namespace Persona_3_Reload_Intro_Movies
             string path = _modLoader.GetDirectoryForModId(_modConfig.ModId);
             var collection = new Dictionary<string, bool>
             {
-                {path+"/Moonlight Daydream", _configuration.p3pk},
-                {path+"/Soul Phrase P3P", _configuration.p3p},
-                {path+"/Soul Phrase Mosq", _configuration.soulmosq}
+                {path+"/Moonlight Daydream", _configuration.P3pk},
+                {path+"/Soul Phrase P3P", _configuration.P3p},
+                {path+"/Soul Phrase Mosq", _configuration.SoulMosq}
             };
             foreach (KeyValuePair<string, bool> col in collection)
             {
