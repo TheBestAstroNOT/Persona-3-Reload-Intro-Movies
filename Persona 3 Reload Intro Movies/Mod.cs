@@ -69,7 +69,8 @@ namespace Persona_3_Reload_Intro_Movies
             {
                 {path+"/Moonlight Daydream", _configuration.P3pk},
                 {path+"/Soul Phrase P3P", _configuration.P3p},
-                {path+"/Soul Phrase Mosq", _configuration.SoulMosq}
+                {path+"/Soul Phrase Mosq", _configuration.SoulMosq},
+                {path+"/Episode Aigis", _configuration.Epag}
             };
             foreach (KeyValuePair<string, bool> col in collection)
             {

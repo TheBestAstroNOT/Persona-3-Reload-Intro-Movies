@@ -16,6 +16,11 @@ namespace Persona_3_Reload_Intro_Movies.Configuration
         [DefaultValue(true)]
         public bool P3pk { get; set; } = true;
 
+        [DisplayName("Episode Aigis Original Opening")]
+        [Description("View this movie on startup?")]
+        [DefaultValue(true)]
+        public bool Epag { get; set; } = true;
+
         [DisplayName("P3R Movie (Soul Phrase by Mosq)")]
         [Description("View this movie on startup?")]
         [DefaultValue(false)]
